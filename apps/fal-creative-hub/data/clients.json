@@ -1,0 +1,86 @@
+[
+  {
+    "id": "aurora-cosmeticos",
+    "name": "Aurora Cosméticos",
+    "segment": "Beleza & skincare",
+    "monogram": "Au",
+    "folders": ["Geral", "Lançamento Sérum", "Instagram — Novembro", "Black Friday"],
+    "designSystem": {
+      "palette": ["#F4C7C3", "#B85C6B", "#2B1B22", "#FFF5F0"],
+      "fonts": ["Playfair Display", "Inter"],
+      "keywords": ["soft natural light", "dewy skin", "minimal pastel set", "glass and water textures", "editorial beauty"],
+      "tone": "Delicado, sofisticado e acolhedor",
+      "avoid": ["heavy makeup", "harsh shadows", "cluttered background"],
+      "defaultStyle": "photo",
+      "defaultAspect": "4:5"
+    },
+    "suggestions": [
+      "Frasco de sérum sobre pedra molhada com gotas, luz da manhã",
+      "Post com o texto \"Pele que respira\" em fundo rosado minimalista",
+      "Flat lay da linha completa com pétalas e vidro"
+    ]
+  },
+  {
+    "id": "vertice-engenharia",
+    "name": "Vértice Engenharia",
+    "segment": "Construção civil",
+    "monogram": "Vé",
+    "folders": ["Geral", "Institucional", "LinkedIn", "Residencial Alto da Serra"],
+    "designSystem": {
+      "palette": ["#0F2A44", "#F2A900", "#E6EBF0", "#5B6B7A"],
+      "fonts": ["Montserrat", "IBM Plex Sans"],
+      "keywords": ["architectural photography", "clean geometry", "golden hour facade", "precision", "blueprint details"],
+      "tone": "Confiável, técnico e moderno",
+      "avoid": ["messy construction site", "unsafe workers", "cartoon style"],
+      "defaultStyle": "photo",
+      "defaultAspect": "16:9"
+    },
+    "suggestions": [
+      "Fachada de prédio residencial no fim de tarde com céu limpo",
+      "Banner com o texto \"Construímos o futuro\" sobre planta técnica",
+      "Engenheira analisando projeto em canteiro organizado"
+    ]
+  },
+  {
+    "id": "brasa-burger",
+    "name": "Brasa Burger",
+    "segment": "Food service",
+    "monogram": "Br",
+    "folders": ["Geral", "Cardápio", "Delivery", "Promo Combo"],
+    "designSystem": {
+      "palette": ["#E63B2E", "#FFB627", "#1A1A1A", "#FFF8E7"],
+      "fonts": ["Bebas Neue", "Poppins"],
+      "keywords": ["juicy food photography", "dramatic side light", "smoke and fire", "bold street vibe", "close-up texture"],
+      "tone": "Ousado, divertido e com apetite",
+      "avoid": ["pale food", "plastic look", "vegetables wilting"],
+      "defaultStyle": "photo",
+      "defaultAspect": "1:1"
+    },
+    "suggestions": [
+      "Smash burger duplo com queijo escorrendo e fumaça",
+      "Post com o texto \"COMBO BRASA\" em tipografia bold e fogo",
+      "Ilustração vetorial de mascote hambúrguer para stickers"
+    ]
+  },
+  {
+    "id": "nimbus-fintech",
+    "name": "Nimbus Pay",
+    "segment": "Fintech",
+    "monogram": "Nb",
+    "folders": ["Geral", "App Store", "Campanha Cashback"],
+    "designSystem": {
+      "palette": ["#6C5CE7", "#00D1B2", "#0B0B1A", "#F5F5FF"],
+      "fonts": ["Space Grotesk", "Inter"],
+      "keywords": ["3d glassmorphism", "floating cards", "soft gradients", "futuristic minimal", "clean UI mockup"],
+      "tone": "Inteligente, leve e confiável",
+      "avoid": ["cash stacks", "stock-photo handshake", "cluttered ui"],
+      "defaultStyle": "3d",
+      "defaultAspect": "9:16"
+    },
+    "suggestions": [
+      "Cartão de crédito em vidro flutuando com partículas e gradiente",
+      "Story com o texto \"Cashback de 5%\" e ícones 3D",
+      "Ilustração de pessoa feliz usando o app no metrô"
+    ]
+  }
+]

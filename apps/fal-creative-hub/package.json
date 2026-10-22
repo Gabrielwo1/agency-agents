@@ -1,0 +1,12 @@
+{
+  "name": "fal-creative-hub",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Hub criativo da agência: gera imagens na fal.ai a partir do design system de cada cliente.",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.mjs",
+    "demo": "DEMO=1 node server.mjs"
+  }
+}
