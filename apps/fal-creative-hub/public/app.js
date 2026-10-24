@@ -477,11 +477,23 @@ function clientModal() {
   };
 }
 
-async function addFolder() {
-  const name = prompt('Nome da nova pasta');
-  if (!name?.trim()) return;
-  const c = await api(`/api/clients/${state.clientId}/folders`, { method: 'POST', body: { name } });
-  Object.assign(client(), c); state.folder = name.trim(); state.view = 'studio'; render();
+function addFolder() {
+  const m = $('#modal'); m.className = '';
+  m.innerHTML = `<form class="modal-body" method="dialog" id="folderForm">
+    <h2>Nova pasta em ${esc(client().name)}</h2>
+    <label class="field">Nome<input id="folderName" name="name" required placeholder="Ex: Campanha de Natal"></label>
+    <div class="modal-actions"><button class="btn" value="cancel" formnovalidate>Cancelar</button><button class="btn primary" value="ok">Criar pasta</button></div>
+  </form>`;
+  m.showModal();
+  $('#folderForm').onsubmit = async (e) => {
+    if (e.submitter?.value !== 'ok') return;
+    e.preventDefault();
+    const name = $('#folderName').value.trim();
+    try {
+      const c = await api(`/api/clients/${state.clientId}/folders`, { method: 'POST', body: { name } });
+      Object.assign(client(), c); state.folder = name; state.view = 'studio'; m.close(); render();
+    } catch (err) { toast(err.message); }
+  };
 }
 
 // ---------- events ----------
